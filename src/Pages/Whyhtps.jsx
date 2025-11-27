@@ -11,7 +11,7 @@ const WhyHtps = () => {
       try {
         const res = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/images/getimages?section=community`);
         if (res.data.success) {
-          setImages(res.data.images);
+          setImages(res.data.images.map(img => img.imageUrl));
         } else {
           console.error('Failed to fetch images.');
         }
@@ -380,7 +380,7 @@ const WhyHtps = () => {
 
           <div className="gallery-grid">
             <div className="gallery-item">
-              <img src={`${images[0]}`} alt="Outdoor Play" />
+              <img src={images[0] || ""} alt="Outdoor Play" />
               <div className="gallery-overlay">
                 <h4>Outdoor Exploration</h4>
                 <p>Learning through nature play</p>
@@ -388,7 +388,7 @@ const WhyHtps = () => {
             </div>
 
             <div className="gallery-item">
-              <img src={`${images[1]}`} alt="Art Class" />
+              <img src={images[1] || ""} alt="Outdoor Play" />
               <div className="gallery-overlay">
                 <h4>Creative Expression</h4>
                 <p>Developing imagination through art</p>
@@ -396,7 +396,7 @@ const WhyHtps = () => {
             </div>
 
             <div className="gallery-item">
-              <img src={`${images[2]}`} alt="Story Time" />
+              <img src={images[2] || ""} alt="Outdoor Play" />
               <div className="gallery-overlay">
                 <h4>Story Time</h4>
                 <p>Building language and listening skills</p>
@@ -404,7 +404,7 @@ const WhyHtps = () => {
             </div>
 
             <div className="gallery-item">
-              <img src={`${images[3]}`} alt="Science Fun" />
+              <img src={images[3] || ""} alt="Outdoor Play" />
               <div className="gallery-overlay">
                 <h4>Science Discovery</h4>
                 <p>Hands-on experiments for curious minds</p>
@@ -412,7 +412,7 @@ const WhyHtps = () => {
             </div>
 
             <div className="gallery-item">
-              <img src={`${images[4]}`} alt="Music Class" />
+              <img src={images[4] || ""} alt="Outdoor Play" />
               <div className="gallery-overlay">
                 <h4>Music & Movement</h4>
                 <p>Rhythm and coordination development</p>
@@ -420,7 +420,7 @@ const WhyHtps = () => {
             </div>
 
             <div className="gallery-item">
-              <img src={`${images[5]}`} alt="Group Activity" />
+              <img src={images[5] || ""} alt="Outdoor Play" />
               <div className="gallery-overlay">
                 <h4>Team Building</h4>
                 <p>Learning cooperation and friendship</p>
