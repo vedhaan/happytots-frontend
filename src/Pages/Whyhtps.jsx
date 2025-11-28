@@ -404,26 +404,10 @@ const WhyHtps = () => {
             </div>
 
             <div className="gallery-item">
-              <img src={images[3]?.imageUrl} alt="Outdoor Play" />
+              <img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764307834/happyTots/ns3v0dcmlrs5efoou7on.jpg" alt="Outdoor Play" />
               <div className="gallery-overlay">
                 <h4>Science Discovery</h4>
                 <p>Hands-on experiments for curious minds</p>
-              </div>
-            </div>
-
-            <div className="gallery-item">
-              <img src={images[4]?.imageUrl} alt="Outdoor Play" />
-              <div className="gallery-overlay">
-                <h4>Music & Movement</h4>
-                <p>Rhythm and coordination development</p>
-              </div>
-            </div>
-
-            <div className="gallery-item">
-              <img src={images[5]?.imageUrl} alt="Outdoor Play" />
-              <div className="gallery-overlay">
-                <h4>Team Building</h4>
-                <p>Learning cooperation and friendship</p>
               </div>
             </div>
           </div>
