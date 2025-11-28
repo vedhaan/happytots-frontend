@@ -238,7 +238,7 @@ const About = () => {
              <div className="image-grid">
              <div className="grid-item"><img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764306544/happyTots/azbgu1yk4apmprd5gkc4.jpg" /></div>
              <div className="grid-item"><img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764306617/happyTots/qpelt3zaeqwrfr0ahwyc.jpg"/></div>
-             <div className="grid-item"><img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764306855/happyTots/ocgew9qa3zmevwukxqy6.heic" /></div>
+             <div className="grid-item"><img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764306617/happyTots/qpelt3zaeqwrfr0ahwyc.jpg" /></div>
              <div className="grid-item"><img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764306704/happyTots/ufarsqavw5qkjedfmxyu.jpg" /></div>
           </div>
           </div>
