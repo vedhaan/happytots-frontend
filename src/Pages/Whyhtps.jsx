@@ -380,7 +380,7 @@ const WhyHtps = () => {
 
           <div className="gallery-grid">
             <div className="gallery-item">
-              <img src={images[0]?.imageUrl} alt="Outdoor Play" />
+              <img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764307395/happyTots/mcaucknvy8pje3urkf5l.jpg" alt="Outdoor Play" />
               <div className="gallery-overlay">
                 <h4>Outdoor Exploration</h4>
                 <p>Learning through nature play</p>
@@ -388,7 +388,7 @@ const WhyHtps = () => {
             </div>
 
             <div className="gallery-item">
-              <img src={images[1]?.imageUrl} alt="Outdoor Play" />
+              <img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764307470/happyTots/bvoaaq3bropsimy2myin.jpg" alt="Outdoor Play" />
               <div className="gallery-overlay">
                 <h4>Creative Expression</h4>
                 <p>Developing imagination through art</p>
@@ -396,7 +396,7 @@ const WhyHtps = () => {
             </div>
 
             <div className="gallery-item">
-              <img src={images[2]?.imageUrl} alt="Outdoor Play" />
+              <img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764307554/happyTots/cnkzn1cegza940smg8nh.jpg" alt="Outdoor Play" />
               <div className="gallery-overlay">
                 <h4>Story Time</h4>
                 <p>Building language and listening skills</p>
