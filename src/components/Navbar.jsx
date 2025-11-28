@@ -65,7 +65,7 @@ export const Navbar = () => {
 
         {/* Logo */}
         <div className="logo">
-          <img src={`/src/assets/img/logo.png`} alt="Creative Minds Logo" />
+          <img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764300218/happyTots/dgob9mdfxziw2zbqzk2u.jpg" alt="Creative Minds Logo" />
         </div>
 
         {/* Desktop Navigation Links */}
