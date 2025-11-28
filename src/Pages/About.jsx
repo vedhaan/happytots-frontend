@@ -58,7 +58,7 @@ const About = () => {
         <div className="legacy-container">
           <div className="legacy-visual">
             <div className="legacy-image">
-              <img src={`${ourLegacyImages[0]}`} alt="HappyTots Story" />
+              <img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764305494/happyTots/unyzhgdck6m7xzimpuxd.jpg" alt="HappyTots Story" />
               <div className="sun-glow"></div>
             </div>
           </div>
