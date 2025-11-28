@@ -112,13 +112,12 @@ export const BusJourney = () => {
         {/* USP SECTION — HARD-CODED */}
         {[1, 2, 3, 4].map((i) => (
           <React.Fragment key={i}>
-            <img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764304137/happyTots/npn8xiyevlwqpa0vsi7w.png" alt="checkpoint" />
             <div
               className="checkpoint"
               style={{ left: `${i * 20}%` }}
               id={`cp${i}`}
             >
-              
+              <img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764304137/happyTots/npn8xiyevlwqpa0vsi7w.png" alt="checkpoint" />
             </div>
 
             <div
