@@ -236,10 +236,10 @@ const About = () => {
           </div>
           <div className="environment-image">
              <div className="image-grid">
-             <div className="grid-item"><img src={`${ourEnvironmentImages[0]}`} /></div>
-             <div className="grid-item"><img src={`${ourEnvironmentImages[1]}`} /></div>
-             <div className="grid-item"><img src={`${ourEnvironmentImages[2]}`} /></div>
-             <div className="grid-item"><img src={`${ourEnvironmentImages[3]}`} /></div>
+             <div className="grid-item"><img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764306544/happyTots/azbgu1yk4apmprd5gkc4.jpg" /></div>
+             <div className="grid-item"><img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764306617/happyTots/qpelt3zaeqwrfr0ahwyc.jpg"/></div>
+             <div className="grid-item"><img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764306659/happyTots/soxzp2sgpdng9g2vwv9d.heic" /></div>
+             <div className="grid-item"><img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764306704/happyTots/ufarsqavw5qkjedfmxyu.jpg" /></div>
           </div>
           </div>
         </div>
