@@ -101,12 +101,12 @@ export const BusJourney = () => {
         </div>
 
         <div className="location school">
-          <img src="/src/img/school.png" alt="Preschool" />
+          <img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764303950/happyTots/nbdltwhtehwlbo6xfukh.png" alt="Preschool" />
           <div className="label">Happy Tots Preschool</div>
         </div>
 
         <div className="bus-container" id="bus" ref={busRef}>
-          <img src="/src/img/kid.png" alt="Bus" />
+          <img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764303896/happyTots/s2cjxpxql2cyiua2land.png" alt="Bus" />
         </div>
 
         {/* USP SECTION — HARD-CODED */}
@@ -117,7 +117,7 @@ export const BusJourney = () => {
               style={{ left: `${i * 20}%` }}
               id={`cp${i}`}
             >
-              <img src="/src/img/bm.png" alt="checkpoint" />
+              <img src="https://res.cloudinary.com/dwyjoekgh/image/upload/v1764303842/happyTots/hesgf9eskse0xsyanush.png" alt="checkpoint" />
             </div>
 
             <div
