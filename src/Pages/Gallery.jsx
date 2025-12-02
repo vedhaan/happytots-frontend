@@ -101,7 +101,7 @@ const Gallery = () => {
           <div className="column" key={colIdx}>
             {col.map((item, idx) => (
               <div className="gallery-item" key={idx}>
-                <img src={item.img} alt={item.alt} />
+                <img src={item.img} alt={item.alt}  loading="lazy"/>
                 <span className="category-tag">
                   {item.category.charAt(0).toUpperCase() + item.category.slice(1).replace("-", " ")}
                 </span>
